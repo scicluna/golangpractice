@@ -40,7 +40,7 @@ import "fmt"
 //main.go -> gobuild -> helloworld.exe
 
 //variable types
-func main() {
+func old() {
 	//var username string = "wagslane"
 	//var password string = "20947382822"
 	username := "wagslane"
