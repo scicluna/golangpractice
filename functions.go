@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func cool() string {
+	return "hi"
+}
+
 func main() {
-	fmt.Printf("hi")
+	interestingString := cool()
+	fmt.Printf(interestingString)
 }
