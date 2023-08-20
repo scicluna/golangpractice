@@ -55,7 +55,7 @@ import "fmt"
 
 //x, _ := getPoint()
 
-func main() {
+func old55() {
 	firstName, _ := getNames()
 	fmt.Println("Welcom to textio, ", firstName)
 }
