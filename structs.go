@@ -137,7 +137,7 @@ func (authInfo authenticationInfo) getBasicAuth() string {
 	return fmt.Sprintf("Authorization: Basic %s:%s", authInfo.username, authInfo.password)
 }
 
-func main() {
+func asdasdsadsadasd() {
 	authInfo := authenticationInfo{
 		username: "bob",
 		password: "cool",
