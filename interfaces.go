@@ -140,3 +140,10 @@ package main
 
 //Interfaces should have as _ methods as possible
 //FEW methods as possible
+
+//its okay for types to be aware of the interfaces they satisfy
+//true - interfaces shouldnt be aware of underlying types - gotta implement em after all..
+
+//Interfaces are not classes
+//Interfaces allow you to define a method's behavior once and use it for many different types
+//false - it just tells you what methods a struct must have
